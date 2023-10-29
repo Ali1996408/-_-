@@ -1,0 +1,28 @@
+:root {
+
+--primary-color: #2947A9;
+}
+.container {
+border: 1 px; 
+margin: auto;
+max-width: 1486px;
+
+
+}
+.header__content {
+display: flex;
+flex-direction: row;
+margin: 16px 0;
+
+}
+.header__logo {
+display: flex;
+align-items: center;
+gap: 14px;
+
+}
+.header__logo-title {
+font-family: "Work Sans";
+	color: var(--primary-color);
+font-size: 30px;
+}
